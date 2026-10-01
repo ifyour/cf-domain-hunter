@@ -32,10 +32,11 @@ cf auth login
 The [skills CLI](https://github.com/vercel-labs/skills) installs directly from GitHub and auto-detects your agent (Claude Code, Pi, Codex, Cursor, and 80+ more):
 
 ```bash
+# Project-level (this project only):
 npx skills add https://github.com/ifyour/cf-domain-hunter
+# User-level (all projects):
+npx skills add -g https://github.com/ifyour/cf-domain-hunter
 ```
-
-Add `-g` for user-level (all projects) install; default is project-level.
 
 ### Option 2: Natural language
 

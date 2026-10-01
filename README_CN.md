@@ -32,10 +32,11 @@ cf auth login
 [skills CLI](https://github.com/vercel-labs/skills) 支持直接从 GitHub 安装，并自动检测你的智能体（Claude Code、Pi、Codex、Cursor 等 80+）：
 
 ```bash
+# 项目级（仅当前项目）：
 npx skills add https://github.com/ifyour/cf-domain-hunter
+# 用户级（所有项目可用）：
+npx skills add -g https://github.com/ifyour/cf-domain-hunter
 ```
-
-加 `-g` 安装到用户级（所有项目可用）；默认安装到项目级。
 
 ### 方式二：自然语言安装
 
