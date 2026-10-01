@@ -16,10 +16,10 @@ Every availability result is an **authoritative real-time registry check** with 
 ## Requirements
 
 - Any skill-compatible agent (Claude Code, Pi, etc.)
-- [Cloudflare CLI (`cf`)](https://developers.cloudflare.com/cloudflare-cli/) installed **and logged in**:
+- [Cloudflare CLI (`cf`)](https://www.npmjs.com/package/cf) installed **and logged in**:
 
 ```bash
-npm install -g @cloudflare/cli
+npm install -g cf
 cf auth login
 ```
 
@@ -68,7 +68,7 @@ Find me 10 available domains for a kids' cartoon learning site, under $15/year
 /cf-domain-hunter domains related to free image hosting, check both .com and .xyz
 ```
 
-(Claude Code uses `/skill:cf-domain-hunter …` syntax; other hosts may differ.)
+(Claude Code uses `/cf-domain-hunter …` syntax; other hosts may differ.)
 
 Arguments after the command are appended to the skill as your request.
 

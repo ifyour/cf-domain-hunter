@@ -16,10 +16,10 @@
 ## 环境要求
 
 - 任何支持技能的智能体（Claude Code、Pi 等）
-- [Cloudflare CLI（`cf`）](https://developers.cloudflare.com/cloudflare-cli/) 已安装**且已登录**：
+- [Cloudflare CLI（`cf`）](https://www.npmjs.com/package/cf) 已安装**且已登录**：
 
 ```bash
-npm install -g @cloudflare/cli
+npm install -g cf
 cf auth login
 ```
 
@@ -68,7 +68,7 @@ Find me 10 available domains for a kids' cartoon learning site, under $15/year
 /cf-domain-hunter 免费图片托管相关的域名，.com 和 .xyz 都看看
 ```
 
-（Claude Code 使用 `/skill:cf-domain-hunter …` 语法，其他宿主可能略有不同。）
+（Claude Code 使用 `/cf-domain-hunter …` 语法，其他宿主可能略有不同。）
 
 命令后面的内容会作为你的具体需求附加给技能。
 

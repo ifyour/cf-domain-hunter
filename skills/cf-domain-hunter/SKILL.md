@@ -19,7 +19,7 @@ cf auth whoami 2>&1 | grep -q '"authenticated": true' && echo OK || echo "CF_NOT
 ```
 
 - **CF_CLI_MISSING** → stop and guide the user:
-  `npm install -g @cloudflare/cli` (or see `https://developers.cloudflare.com/cloudflare-cli/`), then re-run this check
+  `npm install -g cf` (npm package name is `cf`, "The Cloudflare CLI"), then re-run this check
 - **CF_NOT_AUTHED** → stop and guide:
   `cf auth login` (opens browser OAuth flow), then re-run this check
 - **OK** → proceed to Step 1
