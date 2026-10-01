@@ -79,8 +79,6 @@ Mention the skill name in your prompt: "Use the cf-domain-hunter flow to check i
 ## What you get
 
 ```
-> Output language follows the conversation language; the example below is in English.
-
 ## Recommendation
 
 **Domain:** katong.tv

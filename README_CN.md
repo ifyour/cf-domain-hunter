@@ -79,24 +79,22 @@ Find me 10 available domains for a kids' cartoon learning site, under $15/year
 ## 输出效果
 
 ```
-> The output language follows the conversation language; the example below is in English.
+## 推荐结果
 
-## Recommendation
+**域名：** katong.tv
+**价格：** $25.00/年（注册与续费同价）
+**注册商：** Cloudflare（成本价，免费 WHOIS 隐私保护）
+**验证结果：** ✅ registrable: true（可注册）
 
-**Domain:** katong.tv
-**Price:** $25.00/year (same registration and renewal)
-**Registrar:** Cloudflare (at-cost, free WHOIS privacy)
-**Verified:** ✅ registrable: true
-
-### Available Candidates (verified in real time)
-| Domain | Year 1 | Renewal |
+### 可注册候选（已实时验证）
+| 域名 | 首年 | 续费 |
 |--------|--------|---------|
 | katong.tv | $25.00 | $25.00 |
 | xiaoxuetv.com | $10.46 | $10.46 |
 
-### Unavailable
-- donghua.com — already registered
-- xueke.vip — premium-priced domain
+### 不可注册
+- donghua.com — 已被注册
+- xueke.vip — 高价溢价域名
 ```
 
 ## 工作原理
