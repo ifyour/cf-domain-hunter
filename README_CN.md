@@ -35,40 +35,15 @@ cf auth login
 npx skills add https://github.com/ifyour/cf-domain-hunter
 ```
 
-- 加 `-g` 安装到用户级（所有项目可用）；默认安装到项目级
-- 也可以直接用自然语言告诉你的智能体：「帮我安装 https://github.com/ifyour/cf-domain-hunter 这个技能」——它会替你执行命令
+加 `-g` 安装到用户级（所有项目可用）；默认安装到项目级。
 
-### 方式二：手动复制
+### 方式二：自然语言安装
 
-本仓库按标准 Agent Skills 布局存放技能：`skills/cf-domain-hunter/`。把它复制到你的智能体所扫描的技能目录即可：
+直接把仓库链接发给你的智能体：
 
-### Claude Code
+> 帮我安装 https://github.com/ifyour/cf-domain-hunter 这个技能
 
-```bash
-git clone https://github.com/ifyour/cf-domain-hunter.git
-# 项目级：
-mkdir -p <你的项目>/.claude/skills
-cp -r cf-domain-hunter/skills/cf-domain-hunter <你的项目>/.claude/skills/
-# 用户级（所有项目可用）：
-mkdir -p ~/.claude/skills
-cp -r cf-domain-hunter/skills/cf-domain-hunter ~/.claude/skills/
-```
-
-### Pi
-
-```bash
-git clone https://github.com/ifyour/cf-domain-hunter.git
-# 项目级：
-mkdir -p <你的项目>/.pi/skills
-cp -r cf-domain-hunter/skills/cf-domain-hunter <你的项目>/.pi/skills/
-# 用户级（所有项目可用）：
-mkdir -p ~/.pi/agent/skills
-cp -r cf-domain-hunter/skills/cf-domain-hunter ~/.pi/agent/skills/
-```
-
-### 其他兼容 Agent Skills 的智能体
-
-任何会扫描 `SKILL.md` 的宿主都可以：把 `skills/cf-domain-hunter/` 复制到对应技能目录（如 `.agents/skills/`），或在智能体配置中注册本仓库路径。
+智能体会替你执行安装命令，并选择正确的技能目录。
 
 ## 使用方法
 

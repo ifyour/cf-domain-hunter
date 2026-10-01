@@ -35,40 +35,15 @@ The [skills CLI](https://github.com/vercel-labs/skills) installs directly from G
 npx skills add https://github.com/ifyour/cf-domain-hunter
 ```
 
-- Add `-g` for user-level (all projects) install; default is project-level
-- Or just tell your agent in natural language: *"Install the skill from https://github.com/ifyour/cf-domain-hunter"* — it will run the command for you
+Add `-g` for user-level (all projects) install; default is project-level.
 
-### Option 2: Manual copy
+### Option 2: Natural language
 
-The skill lives at `skills/cf-domain-hunter/` following the standard Agent Skills layout. Copy it into whichever skills directory your agent discovers:
+Just send your agent the repo link and ask:
 
-### Claude Code
+> Install the skill from https://github.com/ifyour/cf-domain-hunter
 
-```bash
-git clone https://github.com/ifyour/cf-domain-hunter.git
-# Project-level:
-mkdir -p <your-project>/.claude/skills
-cp -r cf-domain-hunter/skills/cf-domain-hunter <your-project>/.claude/skills/
-# User-level (all projects):
-mkdir -p ~/.claude/skills
-cp -r cf-domain-hunter/skills/cf-domain-hunter ~/.claude/skills/
-```
-
-### Pi
-
-```bash
-git clone https://github.com/ifyour/cf-domain-hunter.git
-# Project-level:
-mkdir -p <your-project>/.pi/skills
-cp -r cf-domain-hunter/skills/cf-domain-hunter <your-project>/.pi/skills/
-# User-level (all projects):
-mkdir -p ~/.pi/agent/skills
-cp -r cf-domain-hunter/skills/cf-domain-hunter ~/.pi/agent/skills/
-```
-
-### Other Agent Skills–compatible hosts
-
-Any host that scans directories for `SKILL.md` works: copy `skills/cf-domain-hunter/` into the host's skills location (for example `.agents/skills/`), or register the repo path in your agent's skill configuration.
+The agent will run the install command for you and pick the right skills directory.
 
 ## Usage
 
