@@ -15,7 +15,7 @@
 
 ## 环境要求
 
-- 任何兼容 [Agent Skills](https://agentskills.io) 规范的智能体（Claude Code、Pi 等）
+- 任何支持技能的智能体（Claude Code、Pi 等）
 - [Cloudflare CLI（`cf`）](https://developers.cloudflare.com/cloudflare-cli/) 已安装**且已登录**：
 
 ```bash

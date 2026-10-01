@@ -15,7 +15,7 @@ Every availability result is an **authoritative real-time registry check** with 
 
 ## Requirements
 
-- Any [Agent Skills](https://agentskills.io)–compatible agent (Claude Code, Pi, etc.)
+- Any skill-compatible agent (Claude Code, Pi, etc.)
 - [Cloudflare CLI (`cf`)](https://developers.cloudflare.com/cloudflare-cli/) installed **and logged in**:
 
 ```bash
