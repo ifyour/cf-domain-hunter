@@ -42,7 +42,9 @@ npx skills add -g https://github.com/ifyour/cf-domain-hunter
 
 直接把仓库链接发给你的智能体：
 
-> 帮我安装 https://github.com/ifyour/cf-domain-hunter 这个技能
+```
+帮我安装 https://github.com/ifyour/cf-domain-hunter 这个技能
+```
 
 智能体会替你执行安装命令，并选择正确的技能目录。
 

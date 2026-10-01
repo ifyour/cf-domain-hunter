@@ -42,7 +42,9 @@ npx skills add -g https://github.com/ifyour/cf-domain-hunter
 
 Just send your agent the repo link and ask:
 
-> Install the skill from https://github.com/ifyour/cf-domain-hunter
+```
+Install the skill from https://github.com/ifyour/cf-domain-hunter
+```
 
 The agent will run the install command for you and pick the right skills directory.
 
