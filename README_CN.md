@@ -2,7 +2,7 @@
 
 [English](README.md) | 中文
 
-一个兼容 [Agent Skills](https://agentskills.io) 规范的技能，基于免费的 **Cloudflare CLI（`cf`）** 查找、验证域名并获取真实价格——无需 API Key、不爬网页、不依赖第三方服务。适用于任何遵循 Agent Skills 规范的智能体（Claude Code、Pi 等）。
+一个标准 skill，基于免费的 **Cloudflare CLI（`cf`）** 查找、验证域名并获取真实价格——无需 API Key、不爬网页、不依赖第三方服务。适用于 Claude Code、Pi、Codex 等支持技能的智能体。
 
 所有可注册结果都是**注册局实时权威查询**，并附带 Cloudflare 成本价。技能只会向你展示确认可注册的域名。
 

@@ -2,7 +2,7 @@
 
 English | [中文](README_CN.md)
 
-An [Agent Skills](https://agentskills.io)–compatible skill that finds, verifies, and prices domain names using the free **Cloudflare CLI (`cf`)** — no API keys, no web scraping, no third-party services. Works with any agent host that follows the Agent Skills specification (Claude Code, Pi, Codex, and others).
+A standard skill that finds, verifies, and prices domain names using the free **Cloudflare CLI (`cf`)** — no API keys, no web scraping, no third-party services. Works with Claude Code, Pi, Codex, and other skill-compatible agents.
 
 Every availability result is an **authoritative real-time registry check** with Cloudflare's at-cost pricing. Only verified-available domains are ever presented to the user.
 
