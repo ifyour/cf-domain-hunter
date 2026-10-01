@@ -69,7 +69,7 @@ Response per domain:
 
 ### Step 4: Recommend
 
-Present final recommendation in this format:
+Present final recommendation in the user's language (the format below is fixed; wording follows the conversation language):
 
 ```
 ## Recommendation

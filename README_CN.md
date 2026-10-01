@@ -79,6 +79,8 @@ Find me 10 available domains for a kids' cartoon learning site, under $15/year
 ## 输出效果
 
 ```
+> The output language follows the conversation language; the example below is in English.
+
 ## Recommendation
 
 **Domain:** katong.tv
