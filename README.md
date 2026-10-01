@@ -55,7 +55,7 @@ The agent will run the install command for you and pick the right skills directo
 Just describe what you want — the agent matches the skill by its description:
 
 ```
-帮我找几个适合小学生课外学习视频业务的域名，最好双拼
+Find some domains for an after-school learning video business for elementary school students, double-pinyin preferred
 ```
 
 ```
@@ -65,7 +65,7 @@ Find me 10 available domains for a kids' cartoon learning site, under $15/year
 ### 2. Explicit skill command
 
 ```
-/cf-domain-hunter 免费图片托管相关的域名，.com 和 .xyz 都看看
+/cf-domain-hunter domains related to free image hosting, check both .com and .xyz
 ```
 
 (Claude Code uses `/skill:cf-domain-hunter …` syntax; other hosts may differ.)
@@ -74,7 +74,7 @@ Arguments after the command are appended to the skill as your request.
 
 ### 3. Manual reference
 
-Mention the skill name in your prompt: "用 cf-domain-hunter 的流程帮我查一下 katong.tv 可不可以注册".
+Mention the skill name in your prompt: "Use the cf-domain-hunter flow to check if katong.tv is available for registration".
 
 ## What you get
 
